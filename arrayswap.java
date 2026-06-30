@@ -26,7 +26,6 @@ public class arrayswap {
         arr[maxIndex] = arr[minIndex];
         arr[minIndex] = temp;
 
-        // Print the modified array
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
